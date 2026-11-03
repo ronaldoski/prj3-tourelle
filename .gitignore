@@ -1,0 +1,21 @@
+# ---------- Secrets (ne JAMAIS publier) ----------
+.env
+.env.*
+!.env.example
+firmware/**/secrets.h
+broker/mosquitto/config/passwd
+
+# ---------- Donnees runtime du broker ----------
+broker/mosquitto/data/*
+broker/mosquitto/log/*
+!broker/mosquitto/data/.gitkeep
+!broker/mosquitto/log/.gitkeep
+
+# ---------- Dossier de rendu (copie manuelle) ----------
+code_PRJ3_bilal_2627/
+
+# ---------- Divers ----------
+*.bak
+Thumbs.db
+desktop.ini
+.DS_Store

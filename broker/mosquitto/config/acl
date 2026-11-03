@@ -1,0 +1,10 @@
+user tourelle
+topic write tourelle/tir
+topic write tourelle/status
+topic write tourelle/position
+topic write tourelle/arme
+topic read tourelle/cmd
+
+user webapp
+topic read tourelle/#
+topic write tourelle/cmd
